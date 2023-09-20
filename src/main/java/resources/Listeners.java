@@ -28,4 +28,7 @@ public class Listeners extends BasePage implements ITestListener{
 
 
 }
+	  public void onTestSuccess(ITestResult result) {
+		    System.out.println("on test success");
+		  }
 }
